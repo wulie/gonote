@@ -4,6 +4,7 @@
 可用于结构化数据的序列化，目前官方中已经支持多种语言。在一个proto 文件 import 另一个proto 文件，编译时报错 (Import "zeus/file.proto" was not found or had errors) 问题,接下来还原一下产生的这个问题;
 
 ##定义proto文件是都需要定义
+
     //协议版本
     syntax = "proto3";
     
